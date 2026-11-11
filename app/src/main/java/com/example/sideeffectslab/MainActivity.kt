@@ -41,6 +41,7 @@ private val labs = listOf<Lab>(
     Lab("3. Lifecycle logger") { LifecycleTask() },
     Lab("4. SideEffect and analytics") { AnalyticsTask() },
     Lab("5. Scroll and analytics") { ScrollTask() },
+    Lab("6. Bonus image state") { ProduceTask() },
 )
 
 @Composable
