@@ -2,6 +2,8 @@
 
 Six hands-on Jetpack Compose demos from Seminar 10. Each task opens from the app's task menu. Use **Back to tasks** to leave a demo and trigger its cleanup.
 
+The [Part A theory answers](THEORY_ANSWERS.md) cover all 19 questions, including the code corrections, model traces, and API summary tables.
+
 ## Run the project
 
 Open this folder in Android Studio and let Gradle sync. Use JDK 17 or 21, Android SDK Platform 35, and an emulator or device on API 23 or later. Run the `app` configuration. From the terminal, the equivalent build command is `.\gradlew.bat :app:assembleDebug` on Windows or `./gradlew :app:assembleDebug` on macOS and Linux.
