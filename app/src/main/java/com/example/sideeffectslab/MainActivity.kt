@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
 private class Lab(val title: String, val screen: @Composable () -> Unit)
 
 private val labs = listOf<Lab>(
-
+    Lab("1. Splash screen") { SplashTask() },
 )
 
 @Composable
